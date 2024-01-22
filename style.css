@@ -1,0 +1,166 @@
+
+:root {
+  --primary-color: #00000080;
+  --secondary-color: #0072ff;
+  --background-color: #18191f;
+  --color: #fff;
+}
+#contact{
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-weight:bold;
+  color:gray;
+}
+
+
+#whatsapp,
+#github,
+#linkedin {
+    font-size: 5em;
+    background-color: #18191f;
+    color: var(--color);
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+        2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+        inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+        inset 2px 2px 10px #00000080;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+}
+
+#whatsapp {
+    animation-delay: 0.3s;
+}
+#github {
+  animation-delay: 0.7s;
+}
+
+ #linkedin{
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+      filter: hue-rotate(0deg);
+  }
+
+  to {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1{
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+}
+.hero p{
+  text-align: center;
+  font-size: 30px;
+  max-width: 60ch;
+}
+.img2{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.logo{
+  width: 70px;
+  border-radius: 10px;
+}
+li{
+  margin: 0 50px;
+  
+}
+.nav-link{
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+}
+.p-1{
+  font-size: 28px;
+  color:rgb(103, 96, 96);
+  
+}
+.index-row{
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  #contact{
+    font-size: 38px;
+  }
+  
+#whatsapp,
+#github,
+#linkedin{
+  font-size: 3em;
+  padding: 11px 15px;
+    margin: 0 10px;
+}
+  .hero{
+    overflow-x: scroll;
+    margin-bottom: 0;
+  }
+  .hero h1{
+    text-align: center;
+    font-size: 40px;
+  }
+
+ .hero h2{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.hero p{
+  
+  font-size: 13px;
+  max-width: 40ch;
+  margin: 0px 5px;
+  
+  
+}
+
+img{
+width: 70%;
+}
+li{
+  margin: 0;
+  
+}
+.img-4{
+  display: none;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.index-row{
+  margin-top: 0;
+}
+.p-1{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+}
